@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>POO com Prompt - Pessoa</title>
+  <script src="script.js" defer></script>
+</head>
+<script>
+    // Definindo a classe Pessoa
+class Pessoa {
+  constructor(nome, idade) {
+    this.nome = nome;
+    this.idade = idade;
+  }
+
+  // Método para exibir os dados da pessoa
+  exibirDados() {
+    alert(`Nome: ${this.nome}, Idade: ${this.idade}`);
+  }
+}
+
+// Função para interação com o usuário e criar instância de Pessoa
+function exibirDadosPessoa() {
+  let nome = prompt("Digite o nome da pessoa:");
+  let idade = prompt("Digite a idade da pessoa:");
+
+  // Criando uma instância da classe Pessoa com os dados fornecidos pelo usuário
+  let pessoa = new Pessoa(nome, idade);
+
+  // Exibindo os dados da pessoa
+  pessoa.exibirDados();
+}
+
+</script>
+<body>
+  <h1>Informações da Pessoa</h1>
+  <button onclick="exibirDadosPessoa()">Exibir Dados</button>
+</body>
+</html>

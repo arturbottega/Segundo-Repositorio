@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>POO com Prompt - Animal</title>
+  <script src="script.js" defer></script>
+</head>
+<script>
+    // Definindo a classe Animal
+class Animal {
+  fazerBarulho() {
+    alert('Fazendo barulho genérico');
+  }
+}
+
+// Definindo a subclasse Cachorro que estende Animal
+class Cachorro extends Animal {
+  latir() {
+    alert('Au au!');
+  }
+}
+
+// Funções para interação com o usuário
+function fazerBarulho() {
+  // Criando uma instância da classe Animal
+  let animal = new Animal();
+  animal.fazerBarulho();
+}
+
+function latir() {
+  // Criando uma instância da subclasse Cachorro
+  let cachorro = new Cachorro();
+  cachorro.fazerBarulho(); // Chama o método da superclasse Animal
+  cachorro.latir();
+}
+
+</script>
+<body>
+  <h1>Ações do Animal</h1>
+  <button onclick="fazerBarulho()">Fazer Barulho</button>
+  <button onclick="latir()">Latir</button>
+</body>
+</html>

@@ -1,0 +1,76 @@
+{
+	"folders": [
+		{
+			"path": "../../Bottega"
+		},
+		{
+			"path": "../../Sit adidas"
+		},
+		{
+			"path": "../../layout"
+		},
+		{
+			"path": "../../Utilizando CSS e HTML"
+		},
+		{
+			"path": "../../Mobile First"
+		},
+		{
+			"path": "../../Layout exp Mobile First"
+		},
+		{
+			"path": "../../SIT FINAL"
+		},
+		{
+			"path": "../../Sit Starbucks"
+		},
+		{
+			"path": "../../atv DOM"
+		},
+		{
+			"path": "../../Atividadejs"
+		},
+		{
+			"path": "../../herancajs"
+		},
+		{
+			"path": "../../Atv Template String"
+		},
+		{
+			"path": "../../Atv manipulação de Objetos"
+		},
+		{
+			"path": "../../Atv HTML prompt"
+		},
+		{
+			"path": "../../Atv switch case e prompt"
+		},
+		{
+			"path": "../../Atv Arrays e Objetos"
+		},
+		{
+			"path": "../../Atv POO"
+		},
+		{
+			"path": "../../testeApi"
+		},
+		{
+			"path": "../../AtvAPI POKEMON"
+		},
+		{
+			"path": "../../AtvAPI rick and morty"
+		},
+		{
+			"path": "../../Google"
+		},
+		{
+			"path": "../../Praticando JS, HTML e CSS"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Base ferias"
+	}
+}

@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./assets/05.png');
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* Cor de fundo alternativa se a imagem não carregar */
+    
+}
+
+.container {
+    max-width: 2000px; /* Limita a largura do conteúdo */
+    text-align: center;
+    padding: 20px; /* Adiciona um espaçamento interno */
+    background-color: rgba(159, 175, 244, 0.9); /* Fundo branco semi-transparente */
+    border-radius: 80px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+   
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px 0; /* Espaçamento maior entre os itens */
+    padding: 15px; /* Mais espaço interno */
+    font-size: 18px; /* Texto um pouco maior */
+    color: #555; /* Cor do texto um pouco mais suave */
+    transition: transform 0.2s ease; /* Efeito de transição suave */
+    
+    
+}
+
+li:hover {
+    transform: translateY(-3px); /* Levanta um pouco o item ao passar o mouse */
+}
+
+h1 {
+    color: #343a40; /* Cor do título */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    
+}
+

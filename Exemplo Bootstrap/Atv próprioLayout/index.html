@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Moderno com Bootstrap</title>
+    <!-- Bootstrap CSS via CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 56px; /* Espaço para a barra de navegação fixa */
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1920x600') no-repeat center center;
+            background-size: cover;
+            color: white;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+        }
+        .hero p {
+            font-size: 1.25rem;
+        }
+        footer {
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+        .section-title {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Minha Marca</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seção Hero -->
+    <header class="hero">
+        <div class="container">
+            <h1>Bem-vindo ao Meu Site</h1>
+            <p>Transforme suas ideias em realidade com nossas soluções inovadoras.</p>
+            <a href="#sobre" class="btn btn-primary btn-lg">Saiba Mais</a>
+        </div>
+    </header>
+
+    <!-- Área de Conteúdo -->
+    <div class="container mt-5">
+        <section id="sobre">
+            <h2 class="section-title">Sobre Nós</h2>
+            <div class="row">
+                <div class="col-lg-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Integer nec quam vel justo laoreet euismod nec sed lorem. Donec eu libero eu turpis posuere auctor.</p>
+                </div>
+                <div class="col-lg-4">
+                    <img src="https://via.placeholder.com/400x300" alt="Imagem Sobre" class="img-fluid rounded shadow-sm">
+                </div>
+            </div>
+        </section>
+
+        <section id="serviços" class="mt-5">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Serviço 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Serviço 1</h5>
+                            <p class="card-text">Descrição breve do Serviço 1. Soluções personalizadas para suas necessidades.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Serviço 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Serviço 2</h5>
+                            <p class="card-text">Descrição breve do Serviço 2. Consultoria e suporte especializados.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Serviço 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Serviço 3</h5>
+                            <p class="card-text">Descrição breve do Serviço 3. Estratégias eficazes para o seu sucesso.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="mt-5">
+            <h2 class="section-title">Contato</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="nome">Nome</label>
+                        <input type="text" class="form-control" id="nome" placeholder="Seu Nome">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Seu Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" rows="4" placeholder="Sua Mensagem"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="text-center mt-5">
+        <p>&copy; 2024 Minha Empresa. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap JS e dependências via CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

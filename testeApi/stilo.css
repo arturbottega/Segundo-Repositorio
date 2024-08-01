@@ -1,0 +1,57 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif; /* Define a fonte padrão para o texto */
+    margin: 0;
+    padding: 0;
+    background-color: #446a51; /* Cor de fundo da página */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px;
+    background-color: #fff; /* Cor de fundo do conteúdo principal */
+    max-width: 1200px;
+    margin: 0 auto; /* Centraliza o conteúdo principal na página */
+}
+
+/* Estilo dos títulos */
+h1, h2, h3 {
+    color: #333; /* Cor dos títulos */
+    margin-bottom: 15px;
+}
+
+/* Estilo dos parágrafos */
+p {
+    line-height: 1.6; /* Espaçamento entre linhas */
+    color: #666; /* Cor do texto dos parágrafos */
+    margin-bottom: 20px;
+}
+
+/* Estilo dos links */
+a {
+    color: #007bff; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona o sublinhado quando o link é sobreposto */
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto no rodapé */
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* Faz com que o rodapé ocupe toda a largura da página */
+}
